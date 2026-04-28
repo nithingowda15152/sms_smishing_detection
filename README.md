@@ -1,17 +1,31 @@
-# sms_smishing
+# AI-Powered SMS Smishing Detector
 
-A new Flutter project.
+A Flutter-based mobile application that detects spam and phishing (smishing) SMS messages using a hybrid AI approach.
 
-## Getting Started
+## Features
+- Real-time SMS classification
+- Offline machine learning model
+- URL-based phishing detection
+- Trusted bank message filtering
+- Probability-based risk scoring
+- User-friendly interface
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter (Frontend)
+- Python (Model training)
+- Scikit-learn (ML model)
+- Android SMS API
 
-A few resources to get you started if this is your first Flutter project:
+## How it Works
+The app analyzes incoming SMS messages using:
+1. Machine Learning model (trained on spam dataset)
+2. Rule-based detection (URLs, keywords)
+3. Trusted source filtering (banks, UPI)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Future Improvements
+- Online AI verification
+- User feedback learning system
+- Advanced NLP model
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author
+Rahul Gowda R
