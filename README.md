@@ -28,4 +28,4 @@ The app analyzes incoming SMS messages using:
 - Advanced NLP model
 
 ## Author
-Rahul Gowda R
+Rahul Gowda R & Nithin K V
